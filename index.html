@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+            .header{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: rgb(34,193,195);
+                background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(241,198,105,1) 100%);            }
+            
+            .projects{
+                display: flex;
+                flex-direction: column
+            }
+            .projDetails{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                
+            }
+            .projTexts{
+                display: flex;
+                flex-direction: column;
+                margin-left: 10px;
+
+            }
+            .proj{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 20px;
+
+            }
+            .projTitle{
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+            .description{
+                font-size: 16px;
+            }
+            .link{
+                font-size: 14px;
+            }
+            .date{
+                font-size: 12px;
+            }
+            
+            .wrapper{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            .experience{
+                display: inline-grid;
+                grid-template-columns: auto auto auto;
+                background-color: #a9cf77;
+                padding: 10px;
+
+                
+            }
+
+            .gridItem {
+                background-color: rgba(255, 255, 255, 0.8);
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 20px;
+                font-size: 10px;
+                text-align: center;
+              }
+
+              .image{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 5%;
+              }
+
+              .wrapperSkills{
+                background-color: rgb(208, 223, 224);
+                padding: 10px;
+              }
+
+              .skills{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                 /* align-items: center;
+                background-color: #2196F3;
+                padding: 10px; */
+
+              }
+              .skills div{
+                padding: 10px; 
+                border: 1px solid black;;
+                border-radius: 10%;
+              }
+
+              .wrapperContact{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: #cf7777;
+                padding: 10px;
+              }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="header">
+                <h1>Naseer Ullah Portfolio</h1>
+                <h2>I am a web designer and developer. I can create websites in
+                    HTML and CSS.</h2>
+            </div>
+            <!-- <hr> -->
+        </div>
+
+        <div class="wrapper3d">Naseer Ullah</div>
+
+        <div class="wrapper">
+            <div>
+                <h3>Projects</h3>
+            </div>
+            <div class="projects">
+                <div>
+
+                    <div class="proj">
+                        <div>
+                            <img class="image"
+                                src="./assets/portfolio.png"
+                                alt="image">
+                        </div>
+                        <div class="projTexts">
+                            <div class="projTitle">Naseer Ullah Portfolio</div>
+                            <div class="description">Naseer Ullah Nextjs portfolio website.</div>
+                            <div class="link"><a href="https://naseer-next-portfolio.vercel.app/">Tour Portfolio</a></div>
+                            <div class="date">Date: 2024
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="proj">
+                        <div>
+                            <img class="image"
+                                src="./assets/codexa.png"
+                                alt="image">
+                        </div>
+                        <div class="projTexts">
+                            <div class="projTitle">Codexa Blog</div>
+                            <div class="projDetails">
+                                <div class="description">A modern blog website</div>
+                                <div class="link">
+                                    <a
+                                        href="https://codexa-cyan.vercel.app/">Visit Codexa
+                                        </a>
+                                </div>
+                                <div class="date">Date: 2024</div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="proj">
+                        <div>
+                            <img class="image"
+                                src="./assets/issueorbit.png"
+                                alt="image">
+                        </div>
+                        <div class="projTexts">
+                            <div class="projTitle">Issue Orbit</div>
+                            <div class="description">Issue Orbit is a nextjs app to track all the issues. All the issues are saved with different statuses.</div>
+                            <div class="link"><a href="https://issueorbit.vercel.app/">Visit Website</a></div>
+                            <div class="date">Date: 2024
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="proj">
+                        <div>
+                            <img class="image"
+                                src="./assets/gamehub.png"
+                                alt="image">
+                        </div>
+                        <div class="projTexts">
+                            <div class="projTitle">Game Hub</div>
+                            <div class="description">It is a games store like steam that contain games fetched from rawg.io</div>
+                            <div class="link"><a href="https://game-hub-self-ten.vercel.app/" >View Site</a></div>
+                            <div class="date">Date: 2024</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="expTitle">
+                    <h1>Experience and Education</h1>
+                </div>
+
+                <div class="experience">
+
+                    <div class="gridItem">
+                        <h1>Bs Computer Science</h1>
+                        <div>
+                            <h2>AWKUM Mardan</h2>
+                            <h3>2017-2021</h3>
+                        </div>
+                    </div>
+
+                    <div class="gridItem">
+                        <h1>FSc Pre Engineering</h1>
+                        <div>
+                            <h2>Farabi Peshawar</h2>
+                            <h3>2015-2017</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="wrapperSkills">
+                <div>
+                    <h1>Skills</h1>
+                </div>
+
+                <div class="skills">
+                    <div>Html</div>
+                    <div>css</div>
+                    <div>javascript</div>
+                    <div>react</div>
+                    <div>node</div>
+                    <div>express</div>
+                    <div>mongodb</div>
+                    <div>sql</div>
+                    <div>python</div>
+                    <div>blender</div>
+                    <div>3d</div>
+                    <div>Mojo</div>
+                    <div>Rust</div>
+                    <div>Dart</div>
+                    <div>Nextjs</div>
+                    <div>Flutter</div>
+                    <div>react native</div>
+                    <div>php</div>
+
+                </div>
+
+            </div>
+
+            <div class="wrapperContact">
+                <div class="contactTitle">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="contact">
+                    <form action="https://formspree.io/f/mwpkqywo"
+                        method="POST">
+                        <label for="name">Name:</label><br>
+                        <input style="margin-top:10px;margin-bottom:20px;width:400px;height:30px" type="text" id="name" name="name"
+                            placeholder="name"><br>
+                        <label for="email">Email:</label><br>
+                        <input style="margin-top:10px;margin-bottom:20px;width:400px;height:30px" type="text" id="email" name="email"
+                            placeholder="email"><br>
+                        <label for="message">Message:</label><br>
+                        <textarea style="margin-top:10px;margin-bottom:20px;width:400px;" id="message" name="message" rows="4"
+                            cols="50" placeholder="message"></textarea>
+                        <br>
+                        <button style="margin-bottom:20px;width:80px;height:40px;cursor:pointer;" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </body>
+    </html>
